@@ -1,21 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main-function main is exetion entry point
- * Return: 0
- */
+* main-function main is exetion entry point
+* Return: 0
+*/
 
 int main(void)
 {
-	int n;
+	char lwr = 'a';
 	
-	srand(time(0));
-	n = rand() - RAND_MAX \ 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else
-		printf("%d is negative\n", n);
+	while (lwr < 'e' && 'q' < lwr && lwr <= 'z');
+	putchar(lwr);
+	lwr++;
+		}
+	putchar('\n');
+		
 	return (0);
 }
