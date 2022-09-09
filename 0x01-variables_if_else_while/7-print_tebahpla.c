@@ -14,7 +14,7 @@ int main(void)
 
 	putchar(lwr);
 		--lwr;
-} while (lwr => 'a');
+} while (lwr >= 'a');
 putchar('\n');
 
 	return (0);
