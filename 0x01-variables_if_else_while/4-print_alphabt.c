@@ -9,12 +9,12 @@ int main(void)
 {
 	char lwr = 'a';
 	
-	while (lwr <= z);
+	while (lwr <= z)
 if (lwr != 'e' && lwr != 'q')
 {
 	putchar(lwr);
-	lwr++;
 }
+	lwr++;
 		}
 	putchar('\n');
 		
