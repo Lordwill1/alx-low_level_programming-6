@@ -12,10 +12,12 @@ int main(void)
 	lwr = 'a';
 	upr = 'A';
 	while (lwr <= 'z' && upr <= 'Z')
+{
 		putchar(lwr);
 	putchar(upr);
 		lwr++;
 upr++;
+}
 putchar('\n')
 	return (0);
 }
