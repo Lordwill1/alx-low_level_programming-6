@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char = lowercase;
+	char lowercase;
 	
 	
 	lowercase = 'a';
