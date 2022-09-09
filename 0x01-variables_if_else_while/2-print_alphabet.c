@@ -12,7 +12,7 @@ int main(void)
 	
 	lowercase = 'a';
 	do {
-		putchar("lowercase\n");
+		putchar("lowercase");
 	lowercase++;
 		} while (a <= z);
 putchar("\n");
