@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main-function main is exetion entry point
@@ -10,12 +8,19 @@
 int main(void)
 {
 	int n;
+char hexa;
 	
-	srand(time(0));
-	n = rand() - RAND_MAX \ 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else
-		printf("%d is negative\n", n);
+	for (n = 48; n <= 57; n++)
+{
+putchar(n);
+n++;
+}
+	
+	
+	for (hexa = 'a'; hexa <= 'f'; hexa++)
+{
+		putchar(hexa);
+}
+putchar('\n');
 	return (0);
 }
