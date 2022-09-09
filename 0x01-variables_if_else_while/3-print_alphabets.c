@@ -13,7 +13,7 @@ int main(void)
 	upr = 'A';
 	while (lwr <= 'z' && upr <= 'Z')
 {
-		putchar(lwr);
+		if (putchar(lwr))
 	putchar(upr);
 		lwr++;
 upr++;
