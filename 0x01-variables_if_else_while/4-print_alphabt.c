@@ -10,6 +10,7 @@ int main(void)
 	char lwr = 'a';
 	
 	while (lwr <= 'z')
+{
 if (lwr != 'e' && lwr != 'q')
 {
 	putchar(lwr);
