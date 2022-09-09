@@ -13,11 +13,12 @@ int main(void)
 	upr = 'A';
 	while (lwr <= 'z' && upr <= 'Z')
 {
-		if (putchar(lwr))
-	putchar(upr);
+		putchar(lwr);
 		lwr++;
-upr++;
+
 }
+putchar(upr);
+upr++;
 putchar('\n');
 	return (0);
 }
