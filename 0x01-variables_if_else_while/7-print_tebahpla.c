@@ -13,8 +13,8 @@ int main(void)
 	do {
 
 	putchar(lwr);
-		lwr++;
-} while (lwr <= 'a');
+		--lwr;
+} while (lwr => 'a');
 putchar('\n');
 
 	return (0);
