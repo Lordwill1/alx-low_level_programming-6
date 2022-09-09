@@ -18,6 +18,6 @@ int main(void)
 		lwr++;
 upr++;
 }
-putchar('\n')
+putchar('\n');
 	return (0);
 }
