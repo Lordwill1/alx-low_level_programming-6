@@ -8,14 +8,14 @@
 int main(void)
 {
 	int n, j, k;
-n = 58;
+j = 44;
+k = 32;
 	
-	while (n = 48 && j = 44 && k = 32)
+	for (n = 48; n <= 57; n++);
 {
 
 	putchar(njk);
 	
-		n++;
 }
 	putchar('\n');
 		
