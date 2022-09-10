@@ -14,8 +14,9 @@ k = 32;
 	for (n = 48; n <= 57; n++);
 {
 
-	putchar(njk);
-	
+	putchar(n);
+	putchar(j);
+putchar(k);
 }
 	putchar('\n');
 		
