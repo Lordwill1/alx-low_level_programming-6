@@ -7,15 +7,12 @@
 
 int main(void)
 {
-	char lwr;
-	
-	lwr = 'z';
-	do {
+	        char ch;
 
-	putchar(lwr);
-		--lwr;
-} while (lwr >= 'a');
-putchar('\n');
-
-	return (0);
-}
+         for (ch = 'z'; ch >= 'a'; ch--)
+         {
+                 putchar(ch);
+         }
+         putchar('\n');
+         return (0);
+ }

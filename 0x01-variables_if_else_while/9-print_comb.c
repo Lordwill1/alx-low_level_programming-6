@@ -7,22 +7,17 @@
 
 int main(void)
 {
-	int n;
-int j = 44;
-int k = 32;
-	
-	for (n = 48; n <= 57; n++)
-{
-putchar(n);
-if (n < 57)
-{
+	        int n;
 
-	putchar(j);
-	putchar(k);
-}
-
-}
-	putchar('\n');
-		
-	return (0);
-}
+         for (n = 48; n < 58; n++)
+         {
+                 putchar(n);
+                 if (n != 57)
+                 {
+                         putchar(',');
+                         putchar(' ');
+                 }
+         }
+         putchar('\n');
+         return (0);
+ }
