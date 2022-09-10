@@ -20,9 +20,7 @@ if (m < 57)
 		putchar(44);
 putchar(32);
 }
-m++;
 }
-n++;
 }
 		putchar('\n');
 	return (0);
