@@ -8,29 +8,27 @@
 
 int main(void)
 {
-	        int n, m, l;
+	int p, q, r;
 
-         for (n = 48; n < 58; n++)
-         {
-                 for (m = 49; m < 58; m++)
-                 {
-                         for (l = 50; l < 58; l++)
-                         {
-                                 if (l > m && m > n)
-                                 {
-                                         putchar(n);
-                                         putchar(m);
-                                         putchar(l);
-                                         if (n != 55 || m != 56)
-                                         {
-                                                 putchar(',');
-                                                 putchar(' ');
-                                         }
-                                 }
-                         }
-                 }
-         }
-         putchar('\n');
-         return (0);
- }
-	                                     
+	for (p = 48; p <= 55; p++)
+	{
+		for (q = 49; q <= 56; q++)
+		{
+			for (r = 50; r <= 57; r++)
+			{
+				if (r >= q && q >= p)
+				{
+					putchar(p);
+					putchar(q);
+					putchar(r);
+					if (p != 55 || q != 56 || r != 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+}

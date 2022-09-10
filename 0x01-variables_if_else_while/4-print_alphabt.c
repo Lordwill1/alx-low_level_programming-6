@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	{
-         char ch = 'a';
+	char lwr;
 
-         while (ch <= 'z')
-         {
-                 if (ch != 'e' && ch != 'q')
-                 {
-                         putchar(ch);
-                 }
-                 ch++;
-         }
-         putchar('\n');
-         return (0);
- }
+	lwr = 'a';
+	while (lwr <= 'z')
+	{
+		if (lwr != 'e' && lwr != 'q')
+		{
+			putchar(lwr);
+		}
+		lwr++;
+	}
+	putchar('\n');
+	return (0);
+}
