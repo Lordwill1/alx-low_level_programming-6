@@ -1,21 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main-function main is exetion entry point
- * Return: 0
- */
+* main-function main is exetion entry point
+* Return: 0
+*/
 
 int main(void)
 {
-	int n;
+	int n, m;
 	
-	srand(time(0));
-	n = rand() - RAND_MAX \ 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else
-		printf("%d is negative\n", n);
+	for (n = 48; n <= 57; n++);
+{
+	for (m = 48; m <= 57; m++)
+{
+	putchar(m);
+putchar(n);
+if (n < 57)
+{
+		putchar(44);
+putchar(32);
+}
+}
+}
+		putchar('\n');
 	return (0);
 }
