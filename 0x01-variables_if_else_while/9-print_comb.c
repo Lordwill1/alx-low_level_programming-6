@@ -15,6 +15,7 @@ int k = 32;
 {
 putchar(n);
 if (n < 57)
+{
 
 	putchar(j);
 	putchar(k);
