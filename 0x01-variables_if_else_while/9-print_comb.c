@@ -13,10 +13,13 @@ int k = 32;
 	
 	for (n = 48; n <= 57; n++)
 {
+putchar(n);
+if (n < 57)
 
-	putchar(n);
 	putchar(j);
-putchar(k);
+	putchar(k);
+}
+
 }
 	putchar('\n');
 		
