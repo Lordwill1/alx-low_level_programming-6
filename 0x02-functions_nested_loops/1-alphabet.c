@@ -7,8 +7,8 @@
 
 void print_alphabet(void)
 {
-	int k;
 	char lwr[] = "abcdefghijklmnopqrstuvwxyz";
+int k;
 
 	for (k = 0; k < MAXSTRING; k++)
 	{
