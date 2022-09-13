@@ -1,24 +1,18 @@
 #include "main.h"
 #define MAXSTRING 80
 /**
- * main-function main
+ * print_alphabet-execution starting point
  * Return:0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int k;
-	char lwr[] = "abcdefghijklmnopqrstuvwxyz";
+	char lwr = 'a';
 
-	for (k = 0; k < MAXSTRING; k++)
-	{
-		if (lwr[k] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		else
-			_putchar(lwr[k]);
-	}
+	do {
+		_putchar(lwr);
+		lwr++;
+	} while (lwr <= 'z');
+	_putchar('\n');
 	return (0);
 }
