@@ -3,7 +3,7 @@
 /**
  * print_sign-entry point
  * @n: this checks numbers passed to the programm
-  Return:1 if n is positive and print +
+  *Return:1 if n is positive and print +
  * -1 if n is negative and print -
  * 0 if n is zero and print 0
  */
