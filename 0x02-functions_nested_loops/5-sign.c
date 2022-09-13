@@ -3,7 +3,9 @@
 /**
  * print_sign-entry point
  * @n: this checks numbers passed to the programm
-  Return:1 or -1 or 0 dependinding on the  interger sign
+  Return:1 if n is positive
+ * -1 if n is negative
+ * 0 if n is zero
  */
 
 int print_sign(int n)
@@ -20,7 +22,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar('0');
+		_putchar(48);
 		return (0);
 	}
 }
