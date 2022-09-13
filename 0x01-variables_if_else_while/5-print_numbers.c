@@ -11,9 +11,11 @@ int main(void)
 	int n;
 
 	n = 0;
-	do {
+	while (n <= 9)
+{
 		printf("%d", n);
-	} while (n <= 9);
+n++;
+	}
 	printf("\n");
 	return (0);
 }
