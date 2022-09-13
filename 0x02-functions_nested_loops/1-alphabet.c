@@ -4,7 +4,6 @@
  * print_alphabet-execution starting point
  * Return:0
  */
-
 void print_alphabet(void)
 {
 	char lwr = 'a';
