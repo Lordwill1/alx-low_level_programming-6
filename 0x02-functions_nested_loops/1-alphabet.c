@@ -15,5 +15,5 @@ void print_alphabet(void)
 		lwr++;
 	} while (lwr <= 'z');
 	_putchar('\n');
-	return (0);
+	
 }
