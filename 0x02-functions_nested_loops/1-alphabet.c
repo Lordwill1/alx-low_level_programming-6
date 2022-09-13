@@ -9,6 +9,7 @@ void print_alphabet(void)
 {
 	char lwr = 'a';
 
+
 	do {
 		_putchar(lwr);
 		lwr++;
