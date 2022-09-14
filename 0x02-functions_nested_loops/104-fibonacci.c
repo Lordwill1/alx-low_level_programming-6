@@ -32,7 +32,7 @@ int main(void)
 		n1 = n1 + m1;
 		m1 = n1 - m1;
 		n2 = n2 + m2;
-		m2 = n2 - m2 ;
+		m2 = n2 - m2;
 	}
 	printf("\n");
 	return (0);
