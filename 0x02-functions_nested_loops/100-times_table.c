@@ -19,7 +19,7 @@ void print_times_table(int n)
 				k = i * j;
 				if (j == 0)
 				_putchar(k + '0');
-				else if (k <= 9 && j != 0)
+				else if (k < 10 && j != 0)
 				{
 					_putchar(44);
 					_putchar(32);
