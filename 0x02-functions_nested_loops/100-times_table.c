@@ -2,7 +2,7 @@
 
 /**
  * A time table
- * _printtimestable-funcfion to print times table
+ * print_times_table-funcfion to print times table
  * @n: the number of times table
  */
 
