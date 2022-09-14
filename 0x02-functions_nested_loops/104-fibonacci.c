@@ -13,7 +13,7 @@ int main(void)
 	n = 2;
 	printf("%lu", m);
 
-	for (p = 1; p < 97; p++)
+	for (p = 1; p < 91; p++)
 	{
 		printf(", %lu", n);
 	
@@ -25,7 +25,7 @@ int main(void)
 	n1 = n / 1000000000;
 	n2 = n % 1000000000;
 
-	for (p = 92; p <= 99; ++p)
+	for (p = 92; p < 99; ++p)
 	{
 		printf(", %lu", n1 + (n2 /1000000000));
 		printf("%lu", n2 % 1000000000);
