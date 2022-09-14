@@ -5,7 +5,7 @@
  * Return:0
  */
 
-int main()
+int main(void)
 {
 	unsigned long int m, n, m1, m2, n1, n2, p;
 
@@ -16,7 +16,7 @@ int main()
 	for (p = 1; p < 97; p++)
 	{
 		printf(", %lu", n);
-		
+	
 		n = n + m;
 		m = n - m;
 	}
@@ -24,7 +24,7 @@ int main()
 	m2 = m % 1000000000;
 	n1 = n / 1000000000;
 	n2 = n % 1000000000;
-	
+
 	for (p = 92; p <= 99; ++p)
 	{
 		printf(", %lu", n1 + (n2 /1000000000));
