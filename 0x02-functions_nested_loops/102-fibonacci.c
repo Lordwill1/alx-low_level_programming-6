@@ -14,7 +14,7 @@ int main(void)
 
 	for (p = 1; p <= 50; p++)
 	{
-		if (m != 20365011704)
+		if (m != 20365011074)
 		{
 			printf("%ld, ", m);
 		}
