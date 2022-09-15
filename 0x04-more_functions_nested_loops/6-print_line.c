@@ -6,11 +6,14 @@ void line(int n)
 
 	if (k <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
-	for (k = 1; k <= n; k++)
+	else
 	{
-		putchar('_');
+		for (k = 1; k <= n; k++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
-	putchar('\n');
 }
