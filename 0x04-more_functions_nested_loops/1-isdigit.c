@@ -2,7 +2,7 @@
 
 /**
  * _isdigit-function to search for digit
- * @n:parameter to check for digit
+ * @c:parameter to check for digit
  * Return:1 int data type
  */
 
