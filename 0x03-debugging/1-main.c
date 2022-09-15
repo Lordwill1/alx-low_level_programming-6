@@ -13,10 +13,10 @@ int main(void)
 
 	i = 0;
 
-	/*while (i < 10) */
-	/"{ */
-		/*putchar(i);  this will cause an infinit loop because their is no counter like i++ */
-	/*} */
+	/* while (i < 10) */
+	/* { */
+		/* putchar(i); */
+	/* } */
 
 	printf("Infinite loop avoided! \\o/\n");
 
