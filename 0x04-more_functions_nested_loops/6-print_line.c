@@ -1,23 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 
-/**
- * print_line-print number of lines
- */
-
-void print_line(int n)
+void line(int n)
 {
 	int k;
 
-	for (p = 1; p <= n; p++)
+	for (k = 1; k <= n; k++)
 	{
-		if ( k <= 0)
+		if (k <= 0)
 		{
-			_putchar('\n');
+			putchar('\n');
 		}
 		else if (k > 0)
 		{
-			_putchar('_');
+			putchar('_');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
