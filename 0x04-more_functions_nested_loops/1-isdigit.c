@@ -2,7 +2,7 @@ include "main.h"
 
 /**
  * _isdigit-function to search for digit
- * @c:parameter to check for digit
+ * @n:parameter to check for digit
  * Return:int data type
  */
 
