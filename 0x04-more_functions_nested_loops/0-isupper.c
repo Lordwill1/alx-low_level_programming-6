@@ -3,7 +3,7 @@
 /**
  * _isupper-check for uppercase and returns 1 if any
  * @c:checks for character argument
- * Return:intcdata type
+ * Return:1 intcdata type
  */
 
 _isupper(int c)
