@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper-check for uppercase and returns 1 if any
- * @c:checks for character argument
+ * _isupper-check for uppercase
+ * @c:check int for character argument
  * Return:1 int data type
  */
 
