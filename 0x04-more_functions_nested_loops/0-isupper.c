@@ -3,10 +3,10 @@
 /**
  * _isupper-check for uppercase and returns 1 if any
  * @c:checks for character argument
- * Return:1 intcdata type
+ * Return:1 int data type
  */
 
 _isupper(int c)
 {
-	return (c >= 'a' && c <= 'z');
+	return (c >= 'A' && c <= 'Z');
 }
