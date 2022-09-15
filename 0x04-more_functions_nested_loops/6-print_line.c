@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_line-print number of lines
- */
+* print_line-print number of lines
+*@n:integer parameter
+*/
 
 void print_line(int n)
 {
