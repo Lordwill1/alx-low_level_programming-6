@@ -6,13 +6,13 @@ void line(int n)
 
 	if (k <= 0)
 	{
-		_putchar('\n');
+	_putchar('\n');
 	}
 	else
 	{
 		for (k = 1; k <= n; k++)
 		{
-			_putchar('_');
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
