@@ -3,7 +3,7 @@
 /**
  * _isupper-function to Check for upper case
  * @c:check for character argument
- * Return:1 int data type
+ * Return:1 int data typee
  */
 
 _isupper(int c)
