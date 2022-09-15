@@ -1,9 +1,9 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _isdigit-function to search for digit
  * @n:parameter to check for digit
- * Return:int data type
+ * Return:1 int data type
  */
 
 int _isdigit(int c)
