@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square-print argument in square
+ * print_square - print argument in square
  * @size:measures size of the aquares
  */
 
