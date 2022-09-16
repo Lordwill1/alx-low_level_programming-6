@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main-fuction main checck the integers to replace it with the corresponding word
+ * main-fuction main check the integers to replace it
+ * with the corresponding word
  * Return:0
  */
 
