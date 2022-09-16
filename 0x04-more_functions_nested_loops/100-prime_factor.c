@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	long long int n;
-	long long int i;
-	long long int max;
+	long int n;
+	long int i;
+	long int max;
 
 	n = 612852475143;
 	max = -1;
@@ -33,7 +33,7 @@ int main(void)
 	if (n > 2)
 		max = n;
 
-	printf("%lld\n", max);
+	printf("%ld\n", max);
 
 	return (0);
 }
