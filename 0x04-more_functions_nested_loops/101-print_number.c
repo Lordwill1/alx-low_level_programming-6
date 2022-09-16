@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_number - display numerical values
+ * print_number - display numerical values
  * @n:integer parameter
  */
 
