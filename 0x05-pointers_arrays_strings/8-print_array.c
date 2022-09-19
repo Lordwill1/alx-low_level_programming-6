@@ -5,6 +5,7 @@
  * print_array - the number of
  * element of an array
  * @a:first number
+ * @n:number of array element
  */
 
 void print_array(int *a, int n)
@@ -20,8 +21,7 @@ void print_array(int *a, int n)
 		else
 		{
 			printf(", %d", a[k]);
-		}
-		
+		}	
 	}
 	printf("\n");
 }
