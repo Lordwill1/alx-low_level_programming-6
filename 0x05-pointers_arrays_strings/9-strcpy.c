@@ -7,11 +7,12 @@
  * @dest:parameter to recieve the
  * copy or copy destination
  * @src:parameter to be copied from
+ * Return:dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int k , p;
+	int k, p;
 
 	p = 0;
 	while (src[p] != '\0')
