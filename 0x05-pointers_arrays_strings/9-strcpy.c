@@ -27,10 +27,3 @@ char *_strcpy(char *dest, char *src)
 	dest[k] = '\0';
 	return (dest);
 }
-
-int main(void)
-{
-	 char s1[98];
-	 char *ptr;
-
-	 ptr = _strcpy(s1, "i am fine");
