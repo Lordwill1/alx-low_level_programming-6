@@ -5,5 +5,6 @@ int _putchar(char c);
 void reset_to_98(int *n);
 void swap_(int *a, int *b);
 int _strlen(char *greeting);
+void _puts(char *str);
 
 #endif
