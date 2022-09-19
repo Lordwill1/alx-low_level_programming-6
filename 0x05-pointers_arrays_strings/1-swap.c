@@ -3,6 +3,8 @@
 
 /**
  * swap_int- swaps two number positions
+ * @a:first number
+ * @b:number to be swapped with the first
  */
 
 void swap_int(int *a, int *b)
