@@ -3,7 +3,7 @@
 
 /**
  * print_rev - A fuction that reverses string input
- * @s;string parameter
+ * @s:string parameter
  */
 
 void print_rev(char *s)
