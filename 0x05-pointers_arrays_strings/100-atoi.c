@@ -31,8 +31,8 @@ int _atoi(char *s)
 				digit = s[k] - '0';
 				if (d % 2)
 					digit = -digit;
-					n = n * 10 + digit;
-					f = 1;
+				n = n * 10 + digit;
+				f = 1;
 				if (s[k + 1] < '0' || s[k + 1] > '9')
 						break;
 					f = 0;
