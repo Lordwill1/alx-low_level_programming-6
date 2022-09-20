@@ -25,18 +25,17 @@ int _atoi(char *s)
 
 		if (s[k] == '-')
 			++d;
-
 		if (s[k] >= '0' && s[k] <= '9')
-			{
-				digit = s[k] - '0';
-				if (d % 2)
-					digit = -digit;
-				n = n * 10 + digit;
-				f = 1;
-				if (s[k + 1] < '0' || s[k + 1] > '9')
-					break;
-				f = 0;
-			}
+		{
+			digit = s[k] - '0';
+			if (d % 2)
+				digit = -digit;
+			n = n * 10 + digit;
+			f = 1;
+			if (s[k + 1] < '0' || s[k + 1] > '9')
+				break;
+			f = 0;
+		}
 		k++;
 	}
 	if (f == 0)
