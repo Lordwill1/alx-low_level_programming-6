@@ -27,16 +27,3 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	return (dest);
 }
-
-int main(void)
-{
-	char s2[98] = "Hello";
-	char s1[] = "b";
-	char *str;
-
-	printf("%s\n", s2);
-	str = _strncpy(s1, s2, 1);
-	printf("%s\n", s1);
-	printf("%s\n", str);
-	return (0);
-}
