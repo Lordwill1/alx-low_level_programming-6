@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * *char_toupper - A function that conver lower cases
+ * *string_toupper - A function that conver lower cases
  * to upper case
  * @lwr:lowercase to uppercase
  * Return:the result of the change
  */
 
-char *char_toupper(char *lwr)
+char *string_toupper(char *lwr)
 {
 	int p;
 
