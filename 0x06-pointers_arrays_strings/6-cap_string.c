@@ -23,7 +23,7 @@ char *cap_string(char *s)
 		char arr[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 		for (k = 0; k < 13; k++)
 		{
-			if (s[p] = arr[k])
+			if (s[p] == arr[k])
 			{
 				if (s[p + 1] >= 'a' && s[p] <= 'z')
 				{
