@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *cap_string - A function that capitalizes every
+ * cap_string - A function that capitalizes every
  * character it runs on
  * @s:string variable
  * Return:result
