@@ -1,9 +1,8 @@
-#include "maun.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
- * leet - function that encodes or replaces
- * lettets with numbers
+ * leet - function that encodes or replaces lettets with numbers
  * @s:string to be encoded
  * Result:string s
  */
