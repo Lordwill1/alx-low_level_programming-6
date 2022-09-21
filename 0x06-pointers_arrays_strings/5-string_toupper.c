@@ -12,6 +12,7 @@ char *string_toupper(char *lwr)
 {
 	int p;
 
+	p = 0;
 	while (lwr[p] != '\0')
 	{
 		if (lwr[p] >= 'a' && lwr[p] <= 'z')
