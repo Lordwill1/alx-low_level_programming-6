@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * leet - function that encodes or replaces lettets with numbers
+ * leet - function that encodes or replaces
+ * lettets with numbers in 1337
  * @s:string to be encoded
  * Result:string s
  */
@@ -12,7 +13,7 @@ char *leet(char *s)
 	int k, p;
 
 	char *m = "aAeEoOtTlL";
-	char *n = *4433007711";
+	char *n = "4433007711";
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
@@ -25,5 +26,4 @@ char *leet(char *s)
 		}
 	}
 	return (s);
-}
-		
+}	
