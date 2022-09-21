@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * cap_string - A function that capitalizes every
  * character it runs on
  * @s:string variable
- * Return:result
+ * Return:s result
  */
 
 char *cap_string(char *s)
@@ -19,7 +20,9 @@ char *cap_string(char *s)
 			s[0] = s[0] - 32;
 		}
 
-		char arr[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+		char arr[13] = {' ', '\t', '\n', ',', ';', '.',
+			'!', '?', '"', '(', ')', '{', '}'};
+		
 		for (k = 0; k < 13; k++)
 		{
 			if (s[p] == arr[k])
