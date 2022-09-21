@@ -21,6 +21,5 @@ char *string_toupper(char *lwr)
 		}
 		lwr++;
 	}
-
 	return (lwr);
 }
