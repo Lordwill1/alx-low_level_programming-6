@@ -21,6 +21,7 @@ char *rot13(cbar *s)
 			if (s[k] == m[p])
 			{
 				s[k] = n[p];
+				break;
 			}
 		}
 	}
