@@ -8,7 +8,7 @@
  * Return:s string after rotating
  */
 
-char *rot13(cbar *s)
+char *rot13(char *s)
 {
 	int p, q;
 
