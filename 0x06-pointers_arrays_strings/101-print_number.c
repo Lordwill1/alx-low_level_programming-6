@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_number - A function to print inputed number as it is
+ * print_number - A function to print inputed
+ * number as it is
  * @n:number to be printed
  */
 
@@ -13,7 +13,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		m = -n;
-		_putchar('-');
+		_putchar(45);
 	}
 	else
 	{
