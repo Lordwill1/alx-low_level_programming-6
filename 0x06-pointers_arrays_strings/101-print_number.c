@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_number - A function to print inputed
@@ -13,7 +14,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		n1 = -n;
-		_putchar('-');
+		putchar('-');
 	}
 	else
 	{
@@ -22,5 +23,5 @@ void print_number(int n)
 
 	if (n1 / 10)
 		print_number(n1 / 10);
-	_putchar((n1 % 10) + '0');
+	putchar((n1 % 10) + '0');
 }
