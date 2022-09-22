@@ -16,7 +16,7 @@ char *rot13(cbar *s)
 	char n[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	for (k = 0; s[k] != '\0'; k++)
 	{
-		for (p = 0; s[p] != '\0'; p++)
+		for (p = 0; m[p] != '\0'; p++)
 		{
 			if (s[k] == m[p])
 			{
